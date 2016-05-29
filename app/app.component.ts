@@ -16,10 +16,8 @@ import { HeroDetailComponent } from './hero-detail.component';
     <router-outlet></router-outlet>
     `,
     directives: [ROUTER_DIRECTIVES],
-    providers: [
-        ROUTER_PROVIDERS,
-        HeroService
-    ]
+    providers: [ ROUTER_PROVIDERS, HeroService],
+    styleUrls: [ 'app/app.component.css' ]
 })
 @RouteConfig([
     {
